@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Admin Panel</h1></header>
+  <div class="container">
+    <input type="text" id="titleInput" placeholder="Blog ka title" />
+    <div id="editor" style="height: 200px;"></div>
+    <button onclick="addPost()">Add Post</button>
+  </div>
+
+  <div class="container" id="adminPosts"></div>
+
+  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
